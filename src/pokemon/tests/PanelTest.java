@@ -80,7 +80,7 @@ class PanelTest
 			
 			if (examined instanceof JComboBox)
 			{
-				assertTrue( ((JComboBox)examined).getItemListeners().length == 1, "Your JComboBox must have a listener");
+				assertTrue( ((JComboBox)examined).getActionListeners().length == 1, "Your JComboBox must have a listener");
 			}
 			
 		}

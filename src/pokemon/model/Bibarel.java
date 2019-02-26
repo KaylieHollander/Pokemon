@@ -7,6 +7,12 @@ public class Bibarel extends Pokemon implements Water
 		super(number, name);
 	}
 	
+	public Bibarel()
+	{
+		super(2222, "Bibarel");
+		
+	}
+	
 	public void splash()
 	{
 		System.out.println("Sploosh");

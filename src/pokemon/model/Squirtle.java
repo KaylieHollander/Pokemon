@@ -7,6 +7,11 @@ public class Squirtle extends Pokemon implements Water
 		super(number, name);
 	}
 	
+	public Squirtle()
+	{
+		super(5464231, "Squritle");
+	}
+	
 	public void splash()
 	{
 		System.out.println("Splooosh");
